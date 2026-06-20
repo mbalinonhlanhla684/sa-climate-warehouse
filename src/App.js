@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { Cloud, Home, TrendingUp, BarChart3, Database, FileText, Info, Thermometer, ArrowUp, ArrowDown, RefreshCw } from "lucide-react";
 
-const API_BASE = "http://localhost:8002";
+const API_BASE = "https://sa-climate-athena-api.onrender.com";
 
 const navItems = [
   { icon: Home, label: "Overview", active: true },
